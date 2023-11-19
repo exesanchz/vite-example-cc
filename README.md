@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+#Coding Challenge Rules:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Create a react application that allows users to click the screen and leave a dot (10px x 10px)
 
-Currently, two official plugins are available:
+2. create an "undo" button that allows users to remove the last dot.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- it can be clicked as many times as needed. (until all dots are removed.)
 
-## Expanding the ESLint configuration
+3. create a "redo" button that puts the dots back on the screen.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- it can be clicked as many times as needed. (until all dots are restored.)
